@@ -1,4 +1,21 @@
 #include <stdio.h>
+#include <stdlib.h>
+
+/*--------定义w武器---------*/
+typedef struct
+{
+  char main[20];  //主武器
+  char vice[20];  //副武器
+}GUN;
+
+/*--------定义角色---------*/
+typedef struct 
+{
+ char name[20];  //角色的名称
+ int blood;  //角色的血量
+ GUN *gun; //角色的装备
+}ROLE;  
+
 //人物攻击的方法
 void shoot()
 {
