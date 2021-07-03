@@ -1,4 +1,9 @@
 #include <stdio.h>
+//人物攻击的方法
+void shoot()
+{
+ shootIndex(); 
+}
 main()
 {
   int a=10,int b=20;
