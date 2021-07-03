@@ -1,12 +1,13 @@
-hello git!  hello world!2222222222
-333333333333333
-hello git!  hello world!
-hello git!  hello world!
-hello git!  hello world!
-hello git!  hello world!
-hello git!  hello world!
-hello git!  hello world!
-hello git!  hello world!
-hello git!  hello world!
-hello git!  hello world!
-hello git!  hello world!
+#include <stdio.h>
+main()
+{
+  int a=10,int b=20;
+  if(a>b)
+  {
+    printf("a>b");
+  }
+  else
+  {
+    printf("a<b");
+  }
+}
