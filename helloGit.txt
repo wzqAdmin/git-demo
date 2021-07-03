@@ -4,6 +4,11 @@ void shoot()
 {
  shootIndex(); 
 }
+//初始化游戏地图
+void initMap()
+{
+  init();
+}
 main()
 {
   int a=10,int b=20;
