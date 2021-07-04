@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*--------定义w武器---------*/
+/*--------定义武器---------*/
 typedef struct
 {
   char main[20];  //主武器
@@ -25,6 +25,10 @@ void shoot()
 void initMap()
 {
   init();
+}
+//by WZQ
+void exit()
+{
 }
 main()
 {
